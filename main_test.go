@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestXxx(t *testing.T) {
+func TestSayHello(t *testing.T) {
 	hello := sayHello()
 
 	if hello != "Hello world!" {
